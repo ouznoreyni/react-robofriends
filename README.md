@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## robots friends react app
+project react after following the The Complete Web Developer in 2019 Zero to Mastery udemy course
+
 ## Available Scripts
 
 In the project directory, you can run:
