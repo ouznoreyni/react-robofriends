@@ -2,6 +2,7 @@
   "name": "robotfriends",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ouznoreyni.github.io/robofriends",
   "dependencies": {
     "axios": "^0.19.2",
     "react": "^16.12.0",
