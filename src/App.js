@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 import './App.css';
 import {robots} from './components/robot';
+import Error from './components/layout/errorBoundary'
 import CardList from './components/cards/CardList';
 import SearchBox from './components/layout/searchBox';
 
@@ -26,8 +27,10 @@ class App extends Component {
     return (
       <div className='tc'>
         <h1 className='f2'>RoboFriends</h1>
-        <SearchBox searchChange={this.onSearchChange} />      
-        <CardList robots={robotFiltered} />
+        <SearchBox searchChange={this.onSearchChange} />    
+        <Error>
+          <CardList robots={robotFiltered} />
+        </Error>
       </div>
   );
   }
